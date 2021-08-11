@@ -11,6 +11,10 @@ body {
 }
 
 .container {
+    @include for-etxra-small {
+        display: flex;
+        flex-direction: column;
+    }
     @include for-medium-up {
         display: flex;
         flex-direction: row;

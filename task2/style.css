@@ -9,6 +9,12 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
   .container {
     display: flex;
@@ -33,6 +39,11 @@ body {
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .square {
+    margin: 16px;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
   .square {
