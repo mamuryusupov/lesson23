@@ -12,17 +12,17 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  background-color: coral;
+  background-color: #ff7f50;
   margin: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
-    background-color: aqua;
+    background-color: #8a2be2;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
-    background-color: gold;
+    background-color: #c47;
   }
 }
 
