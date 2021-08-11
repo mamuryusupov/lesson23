@@ -9,7 +9,19 @@ body {
   height: 100vh;
 }
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape) {
   .container {
     display: flex;
     flex-direction: row;
@@ -20,14 +32,19 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin: 8px;
 }
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media screen and (min-width: 600px) and (max-width: 900px) and (orientation: landscape) {
   .square {
     background-color: #8a2be2;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape) {
   .square {
     background-color: #c47;
   }
