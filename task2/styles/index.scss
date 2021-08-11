@@ -10,6 +10,17 @@ body {
     height: 100vh;
 }
 
+.container {
+    @include for-medium-up {
+        display: flex;
+        flex-direction: row;
+    }
+    // @include for-large-up {
+    //     display: flex;
+    //     flex-direction: row;
+    // }
+}
+
 .square {
     width: 100px;
     height: 100px;
