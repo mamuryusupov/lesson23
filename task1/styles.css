@@ -10,13 +10,13 @@
   list-style-type: none;
   align-items: center;
   height: 56px;
-  color: white;
+  color: #fff;
   font-weight: 700;
 }
 .nav-list__item {
   background-color: #ff7f50;
   padding: 8px;
-  margin-left: 16px;
+  margin-left: 8px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -33,6 +33,7 @@
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
